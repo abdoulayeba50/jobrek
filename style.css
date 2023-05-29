@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.navbar img{
+    width: 80px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-toggler i{
+    color: #fff;
+    margin-left: 100px;
+}
+.navbar .collapse ul{
+margin-left: 90px;
+}
+
+ .un{
+ border-bottom: 2px solid #fff;
+ width: 100%;
+ margin-top: -1px;
+}
+.navbar-brand img{
+    margin-left: 30px;
+}
+
+.nav-item a{
+    margin-left: 20px;
+}
+.container-fluid .left h2{
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: -60px;
+    color: #fff;
+    cursor: pointer;
+}
+.container-fluid .left i{
+    position: relative;
+    left: 30px;
+    top: -13px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.container-fluid .left i:hover{
+    color: rgb(39, 39, 122);
+}
+.navbar {
+    background-color: transparent !important;
+  }
+
+  /* section body */
+
+.container-fluid .row .col-md-6 p{
+    font-size: 70px;
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+.trait{
+    border-bottom: 2px solid #fff;
+    width: 80%;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.container-fluid .row .col-md-6  img{
+    margin-top: -70px;
+    margin-left: -35px;
+    border-radius: 50px;
+}
+
+.container-fluid .row .col-md-6  h3{
+    font-size: 15px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+     font-family: 'Poppins', sans-serif;
+     color: #ffffff9e; 
+}
+
+.container-fluid .row .col-md-6 .profils{
+    display: flex;
+}
+.container-fluid .row .col-md-6 .profils img{
+    width: 80px;
+    height: 80px;
+    border:4px solid #fff ;
+    position: relative;
+    top: 175px;
+    left: 135px;
+}
+
+.col-md-6 input{
+    background-color: transparent;
+    width: 70%;
+    position: relative;
+    top: -70px;
+    left: 90px;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid black;
+}
+.container-fluid .col-md-6 i{
+    color: black;
+    position: relative;
+    left: 540px;
+    top: -100px;
+}
+.container-fluid .col-md-6 h4{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.container-fluid .col-md-6  .blck{
+    position: relative;
+    left: 600px;
+    top: -200px;
+    color: gray;
+}
+.root{
+    margin-left: 50px;
+}
+
+
+   /* lest seection.............................. */
+
+   .container .col .imgg{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 70px;
+   }
+
+   .container .col img{
+    width: 360px;
+    height: 300px;
+   }
+
+   .col .connect{
+    position: relative;
+    top: 60px;
+    left: -70px;
+   }
+   .col .connect .title{
+    position: relative;
+    left: 70px;
+    top: -50px;
+   
+   }
+   .col .connect img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+   }
+   .container .col .connect h5{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: -1px;
+   }
+   .container .col .connect p{
+    font-size: 14px;
+    color: #fff;
+   }
+
+      .theinput button{
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        padding: 5px 50px;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        text-decoration: none;
+        display: block;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .theinput button:hover{
+        background-color: rgb(203, 190, 190);
+      color: rgb(255, 255, 255);
+    }
+
+   .col .text-ligh {
+    text-transform: uppercase;
+    position: relative;
+    top: -160px;
+    left: 100px;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+   }
+   .team{
+    position: relative;
+    top: -110px;
+    left: 120px;
+    font-size: 40px;
+   }
+
+   .col .ourr{
+    position: relative;
+    left: 470px;
+    top: -170px;
+   }
+   .col .ourr h6{
+    font-weight: bolder;
+    font-size: 30px;
+   }
+   .col .ourr i{
+    position: relative;
+    top: -190px;
+    left: 220px;
+    font-size: 40px;
+    transform: rotate(-40deg);
+   }
+
+
+.col .projectt{
+    position: relative;
+    left: 800px;
+    top: -380px;
+}
+
+.col .projectt p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.col .projectt h6{
+position: relative;
+top: 50px;
+left: 20px;
+font-weight: bolder;
+font-size: 50px;
+}
+
+.col .projectt h1{
+    position: relative;
+    left: 105px;
+    top: -35px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 100px;
+  color: #ffffff5e;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+    html , body #ttleprojet{
+        overflow-x: hidden;
+    }
+
+.navbar i{
+    position: relative;
+    left: 20px;
+    top:-3px;
+}
+    .container-fluid .left h2{
+        display: none;
+    }
+    .container-fluid .left i{
+        display: none;
+    }
+   .collapse ul{
+   position: relative;
+   left: -70px;
+   }
+   .container-fluid .row .col-md-6 p{
+   font-size: 50px;
+   margin-top: -90px;
+   margin-left: -50px;
+}
+.container-fluid .row .col-md-6  img{
+    top: 140px;
+    position: relative;
+    border-radius: 7px;
+    left: 25px;
+}
+.container-fluid .row{
+    position: relative;
+    left: -20px;
+}
+.col-md-6{
+    position: relative;
+    left: 7px;
+}
+.un{
+    width:480px;
+}
+.container-fluid .row .col-md-6 .profils img{
+  position: relative;
+  left: 80px;
+  top: 155px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.container-fluid .row .col-md-6 .root{
+    position: relative;
+    top: 160px;
+    left: 140px;
+}
+
+.col-md-6 input{
+  position: relative;
+  top: 80px;
+  left: 75px;
+  width: 250px;
+}
+.container-fluid .col-md-6 i{
+    position: relative;
+    left:290px ;
+    top: 47px;
+    color: #ffffff76;
+}
+.container-fluid .col-md-6 h4{
+    position: relative;
+    z-index: 70;
+    top: 145px;
+    left: 40px;
+    font-size: 16px;
+    color: black;
+}
+.trait{  
+    margin-top: 50px;
+    width: 350px;
+}
+.container-fluid .col-md-6  .blck{
+    position: relative;
+    left: 310px;
+    top: -30px;
+    z-index: 70;
+    color: black;
+}
+
+.container .col .imgg{
+    position: relative;
+    top: 170px;
+    left: 11px;
+    display: inline;
+    margin-bottom: 30px;
+}
+.container .col .imgg img{
+    width: 350px;   
+}
+ .connect img{
+    position: relative;
+    left: 80px;
+    top: 70px;
+   }
+   .connect .title h5,p{
+    position: relative;
+    left: 80px;
+    top: 65px;
+   }
+
+   .theinput button{
+    position: relative;
+    left: 70px;
+    top: 70px;
+    display: block;
+   }
+   .col .text-ligh{
+    position: relative;
+    top: -660px;
+    left: 70px;
+    font-size: 20px;
+   }
+   
+   .team{
+    position: relative;
+    top: -620px;
+    left: 90px;
+   }
+
+   .col .ourr h6{
+    position: relative;
+    top: -210px;
+    left: -400px;
+    font-size: 23px;
+   }
+   .col .ourr i{
+    position: relative;
+    top: -380px;
+    left: -190px;
+   }
+
+
+.col .projectt{
+    position: relative;
+    top: -400px;
+    left: -20px;
+}
+
+.col .projectt p{
+    position: relative;
+    left: 90px;
+    top: 110px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.col .projectt h6{
+    position: relative;
+    top: 165px;
+    left: 120px;
+   font-size: 55px;
+}
+
+.col .projectt h1{
+    position: relative;
+    top: 75px;
+    left: 210px;
+}
+
+   .footer{
+     color: #ffffff82;
+     position: relative;
+     top: 170px;
+     left: 5px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
